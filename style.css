@@ -14,6 +14,7 @@ body {
     background-attachment: fixed; /* Fixed background image */
     font-family: Garamond;
     color: #fffcfc;
+    font-size: large;
 }
 
 a:hover {
