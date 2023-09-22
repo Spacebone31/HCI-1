@@ -14,7 +14,7 @@ body {
     background-attachment: fixed; /* Fixed background image */
     font-family: Garamond;
     color: #fffcfc;
-    font-size: large;
+    font-size: 15px;
 }
 
 a:hover {
@@ -61,9 +61,9 @@ a {
 }
 
 ol {
-    font-size: large;
+    font-size: 15px;
 }
 
 ul {
-    font-size: large;
+    font-size: 15px;
 }
