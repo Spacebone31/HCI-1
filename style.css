@@ -23,6 +23,7 @@ a:hover {
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 .box1 {
