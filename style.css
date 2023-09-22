@@ -59,3 +59,11 @@ a {
     border: 2px dotted white;
     padding: 5px;
 }
+
+ol {
+    font-size: large;
+}
+
+ul {
+    font-size: large;
+}
