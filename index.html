@@ -2,17 +2,24 @@
 <html>
     <head>
         <title>My Portfolio</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .other {
+                color: pink;
+            }
+        </style>
     </head>
     <body>
-        <h1><center>Ari Jaya Teguh</center></h1>
-        <h3><center>Binus ID: 2702403996</center></h3>
+        <h1>Ari Jaya Teguh</h1>
+        <h3>Binus ID: 2702403996</h3>
         <div class="box1">
-            <p>I am a student in Binus International. 
-                I like to play video games and watch anime. 
-                I normally play FPS games such as Valorant and Counter Strike. 
-                The genre of anime that I like the most is fantasy and comedy.</p>
+            <fieldset>
+                <legend>About Me</legend>
+                <p>I am a student in Binus International. 
+                    I like to play video games and watch anime. 
+                    I normally play FPS games such as Valorant and Counter Strike. 
+                    The genre of anime that I like the most is fantasy and comedy.</p>
+            </fieldset>
         </div>
         </br>
         <div class="container">
@@ -42,43 +49,61 @@
             </div>
         </div>
         </br>
-        <div class="box1">
-            <p>Sosmed's information: </p>
-            <ul>
-                <li><a href="https://www.instagram.com">Instagram</a></li>
-            </ul>
-            <p>Programming Skills: </p>
-            <input type="checkbox" id="CSS" checked> CSS
-            <input type="checkbox" id="C" checked> C
-            <input type="checkbox" id="C++"> C++
-            <input type="checkbox" id="Java Script"> Java Script
-            <input type="checkbox" id="python" checked> Python
-            <input type="checkbox" id="Ruby"> Ruby
+        <div class="container">
+            <div class="box2">
+                <p>Sosmed's information: </p>
+                <ul>
+                    <li><a href="https://www.instagram.com">Instagram</a></li>
+                    <li><a href="https://github.com/Spacebone31?tab=repositories">Github</a></li>
+                </ul>
+            </div>
+            <div class="box2">
+                <p>Programming Skills: </p>
+                <input type="checkbox" id="C" checked> C
+                <input type="checkbox" id="C++"> C++
+                <input type="checkbox" id="Java Script"> Java Script
+                <input type="checkbox" id="python" checked> Python
+                <input type="checkbox" id="Ruby"> Ruby
+            </div>   
         </div>
         </br>
         <div class="container">
             <div class="box2">
-                <p>Hobbies: </p>
-                <ul>
-                    <li>Play video games</li>
-                    <li>Watch movies / anime / korean drama</li>
-                    <li>Sleep</li>
-                    <li>Play badminton / soccer / Billiard</li>
-                    <li>Eat Indonesian food</li>
-                </ul>
+                <p style="color: yellow;">Hobbies: </p>
+                <div class="other">
+                    <ul>
+                        <li>Play video games</li>
+                        <li>Watch movies / anime / korean drama</li>
+                        <li>Sleep</li>
+                        <li>Play badminton / soccer / Billiard</li>
+                        <li>Eat Indonesian food</li>
+                    </ul>
+                </div>
             </div>
             <div class="box2">
-                <p>Favorite: </p>
-                <ul>
-                    <li>Games: Valorant</li>
-                    <li>Movies: How to Train your Dragon</li>
-                    <li>Anime: Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka</li>
-                    <li>Korean drama: Vagabond</li>
-                    <li>Sports: Badminton</li>
-                    <li>Food: Ayam geprek</li>
-                    <li>Color: Black</li>
-                </ul>
+                <p style="color: yellow;">Favorite: </p>
+                <div class="other">
+                    <ul>
+                        <li>Games: Valorant</li>
+                        <li>Movies: How to Train your Dragon</li>
+                        <li>Anime: Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka</li>
+                        <li>Korean drama: Vagabond</li>
+                        <li>Sports: Badminton</li>
+                        <li>Food: Ayam geprek</li>
+                        <li>Color: Black</li>
+                    </ul>
+                </div>
                 </br>
+            </div>
+            <div class="box2">
+                <p style="color: yellow;">Pet History: </p>
+                <div class="other">
+                    <ul>
+                        <li>Hamster</li>
+                        <li>Fish</li>
+                        <li>Rabbit</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </body>
