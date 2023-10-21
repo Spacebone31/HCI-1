@@ -2,109 +2,144 @@
 <html>
     <head>
         <title>My Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <style>
-            .other {
-                color: pink;
-            }
-        </style>
     </head>
     <body>
-        <h1>Ari Jaya Teguh</h1>
-        <h3>Binus ID: 2702403996</h3>
-        <div class="box1">
-            <fieldset>
-                <legend>About Me</legend>
-                <p>I am a student in Binus International. 
-                    I like to play video games and watch anime. 
-                    I normally play FPS games such as Valorant and Counter Strike. 
-                    The genre of anime that I like the most is fantasy and comedy.</p>
-            </fieldset>
+        <h1 style="font-family: Arial, Helvetica, sans-serif; font-size: 72px;"><center>WELCOME TO MY BIO</center></h1>
+        <div class="container">
+            <div class="col-3">
+                <center><img class="profile-pic" src="profile_pic.jpg" alt="Profile Picture"></center>
+            </div>
+            <div class="col-9">
+                <fieldset>
+                    <legend>About Me</legend>
+                    <table>
+                        <tr>
+                            <td>Name</td>
+                            <td colspan="4">Ari Jaya Teguh</td>
+                        </tr>
+                        <tr>
+                            <td>NIM</td>
+                            <td colspan="4">2702403996</td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: top;">Gender</td>
+                            <td colspan="4">
+                                <input type="radio" id="male" name="gender" value="male" checked>
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: text-top;">Education</td>
+                            <td style="vertical-align: text-top;" colspan="4">
+                                Santa Laurensia <a href="https://www.santa-laurensia.com" target="_blank">(link)</a>
+                                </br>
+                                BINUS International University <a href="https://international.binus.ac.id" target="_blank">(link)</a> [Computer Science <a href="https://international.binus.ac.id/computer-science/" target="_blank">(link)]</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="vertical-align: text-top">Sosmed's information</td>
+                            <td>
+                                <img src="instagram.png" alt="Instagram Logo" class="logo"> arijayateguh <a href="https://www.instagram.com" target="_blank">(link)</a>
+                                </br>
+                                <img src="github.png" alt="Github Logo" class="logo"> Spacebone31 <a href="https://github.com/Spacebone31?tab=repositories" target="_blank">(link)</a>
+                            </td>
+                            <td>
+                                <img src="steam.png" alt="Steam Logo" class="logo"> Spacebone <a href="https://steamcommunity.com/profiles/76561198154221784/" target="_blank">(link)</a>
+                                </br>
+                                <img src="twitter-x-logo.png" alt="Twitter Logo" class="logo"> Space <a href="https://twitter.com/Spacebone31" target="_blank">(link)</a>
+                            </td>
+                            <td>
+                                <img src="spotify.png" alt="Spotify Logo" class="logo"> Ari Jaya Teguh <a href="https://open.spotify.com/user/hardlife3108" target="_blank">(link)</a>
+                                </br>
+                                <img src="twitter-x-logo.png" alt="Twitter Logo" class="logo"> Space <a href="https://twitter.com/Spacebone31" target="_blank">(link)</a>
+                            </td>
+                            <td>
+                                <img src="whatsapp.png" alt="Whatsapp Logo" class="logo"> 085813000479
+                                </br>
+                                <img src="line.png" alt="Line Logo" class="logo"> arijt
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Programming Skills</td>
+                            <td colspan="4">
+                                <input type="checkbox" id="C" checked> C
+                                <input type="checkbox" id="C++"> C++
+                                <input type="checkbox" id="Java Script"> Java Script
+                                <input type="checkbox" id="python" checked> Python
+                                <input type="checkbox" id="Ruby"> Ruby
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5">
+                                <p>I am a student in Binus International.
+                                    I like to play video games and watch anime. 
+                                    I normally play FPS games such as Valorant and Counter Strike. 
+                                    The genre of anime that I like the most is fantasy and comedy.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
         </div>
         </br>
         <div class="container">
-            <div class="box2">
-                <p>Gender:</p>
-                <label>
-                    <input type="radio" name="gender" value="male" checked> Male
-                    <input type="radio" name="gender" value="female"> Female
-                </label>
-            </div>
-            <div class="box2">
-                <p>Profile Picture: </p>
-                <div class="circle">
-                    <img src="profile_pic.jpg" alt="Ari's profile picture" width="100" height=auto title="Ari">
-                </div>
-                </br>
-            </div>
-            <div class="box2">    
-                <p>Education: </p>
-                <ol>
-                    <li><a href="https://www.santa-laurensia.com">Santa Laurensia</a></li>
-                    <li><a href="https://international.binus.ac.id">Binus International</a></li>
-                        <ul>
-                            <li><a href="https://international.binus.ac.id/computer-science/">Computer Science</a></li>
-                        </ul>
-                </ol>
-            </div>
-        </div>
-        </br>
-        <div class="container">
-            <div class="box2">
-                <p>Sosmed's information: </p>
-                <ul>
-                    <li><a href="https://www.instagram.com">Instagram</a></li>
-                    <li><a href="https://github.com/Spacebone31?tab=repositories">Github</a></li>
-                </ul>
-            </div>
-            <div class="box2">
-                <p>Programming Skills: </p>
-                <input type="checkbox" id="C" checked> C
-                <input type="checkbox" id="C++"> C++
-                <input type="checkbox" id="Java Script"> Java Script
-                <input type="checkbox" id="python" checked> Python
-                <input type="checkbox" id="Ruby"> Ruby
-            </div>   
-        </div>
-        </br>
-        <div class="container">
-            <div class="box2">
-                <p style="color: yellow;">Hobbies: </p>
-                <div class="other">
-                    <ul>
-                        <li>Play video games</li>
-                        <li>Watch movies / anime / korean drama</li>
-                        <li>Sleep</li>
-                        <li>Play badminton / soccer / Billiard</li>
-                        <li>Eat Indonesian food</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="box2">
-                <p style="color: yellow;">Favorite: </p>
-                <div class="other">
-                    <ul>
-                        <li>Games: Valorant</li>
-                        <li>Movies: How to Train your Dragon</li>
-                        <li>Anime: Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka</li>
-                        <li>Korean drama: Vagabond</li>
-                        <li>Sports: Badminton</li>
-                        <li>Food: Ayam geprek</li>
-                        <li>Color: Black</li>
-                    </ul>
-                </div>
-                </br>
-            </div>
-            <div class="box2">
-                <p style="color: yellow;">Pet History: </p>
-                <div class="other">
-                    <ul>
-                        <li>Hamster</li>
-                        <li>Fish</li>
-                        <li>Rabbit</li>
-                    </ul>
-                </div>
-            </div>
+            <table>
+                <tr>
+                    <td colspan="7">
+                        <h3><center>HOBBIES/INTEREST</center></h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="align-items: center;">
+                        <img src="game.png" alt="Game" class="pic">
+                    </td>
+                    <td>
+                        <img src="food.png" alt="Food" class="pic">
+                    </td>
+                    <td>
+                        <img src="anime.png" alt="Anime" class="pic">
+                    </td>
+                    <td>
+                        <img src="movie.png" alt="Movie" class="pic">
+                    </td>
+                    <td>
+                        <img src="kdrama.png" alt="Korean Drama" class="pic">
+                    </td>
+                    <td>
+                        <img src="sport.png" alt="Sport" class="pic">
+                    </td>
+                    <td>
+                        <img src="color.png" alt="Color" class="pic">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">
+                        <a href="game.html"><p style="text-align: left;">Game</p></a>
+                    </td>
+                    <td>
+                        <a href="food.html">Food</a>
+                    </td>
+                    <td>
+                        <a href="anime.html">Anime</a>
+                    </td>
+                    <td>
+                        <a href="movie.html">Movie</a>
+                    </td>
+                    <td>
+                        <a href="kdrama.html">K-Drama</a>
+                    </td>
+                    <td>
+                        <a href="sport.html">Sport</a>
+                    </td>
+                    <td>
+                        Black
+                    </td>
+                </tr>
+            </table>
         </div>
     </body>
 </html>
