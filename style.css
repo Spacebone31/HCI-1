@@ -47,6 +47,7 @@ fieldset {
     text-align: left;
     min-width: fit-content;
     flex: 1;
+    transition: box-shadow 0.5s ease-in-out;
 }
 
 .logo {
@@ -73,4 +74,16 @@ a:hover {
     width: 50px;
     height: 40px;
     border-radius: 10px;
+}
+
+img {
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+img:hover {
+    box-shadow: 0 0 40px whitesmoke;
+}
+
+fieldset:hover {
+    box-shadow: 0 0 40px whitesmoke;
 }
